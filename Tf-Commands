@@ -1,0 +1,32 @@
+Essential Terraform Commands for DevOps Engineers: A Quick Reference Guide🎯
+ 
+🔸terraform init - Initializes the working directory and downloads provider plugins.
+🔸terraform plan - Previews infrastructure changes without applying them.
+🔸terraform validate - Checks the configuration files for syntax errors.
+🔸terraform fmt - Formats configuration files for consistency.
+🔸terraform apply - Provisions or updates infrastructure interactively.
+🔸terraform apply -auto-approve - Applies changes without confirmation.
+🔸terraform show - Displays the current state or execution plan.
+🔸terraform state list - Lists all resources in the state file.
+🔸terraform state show <resource> - Shows details of a specific resource in the state.
+🔸terraform state mv <source> <destination> - Moves resources within the state file.
+🔸terraform state rm <resource> - Removes a resource from the state file.
+🔸terraform destroy - Deletes all resources managed by terraform.
+🔸terraform destroy -target=<resource> - Deletes a specific resource.
+🔸terraform providers - Lists all providers and their versions.
+🔸terraform import <resource> <id> - Imports existing resources into terraform.
+🔸terraform refresh - Updates the state file with the latest resource info.
+🔸TF_LOG=DEBUG terraform apply - Enables debugging logs for troubleshooting.
+🔸terraform console - Opens an interactive console for expressions.
+🔸terraform get - Downloads or updates modules used in configurations.
+🔸terraform workspace list - Lists all available workspaces.
+🔸terraform workspace new <name> - Creates a new workspace.
+🔸terraform workspace select <name> - Switches to a different workspace.
+🔸terraform workspace delete <name> - Deletes an existing workspace.
+🔸terraform lock - Creates or updates the dependency lock file.
+🔸terraform output - Displays values defined in the outputs section.
+🔸terraform output -json - Exports outputs in JSON format.
+🔸terraform plan -out=tfplan - Saves the execution plan to a file.
+🔸terraform apply tfplan - Applies the saved execution plan.
+🔸terraform fmt -recursive - Formats all .tf files recursively.
+🔸terraform apply -input=false - Runs apply non-interactively for automation
